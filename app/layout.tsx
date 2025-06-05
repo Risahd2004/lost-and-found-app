@@ -10,7 +10,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "EduFind - Lost and Found for Educational Institutes",
   description: "A comprehensive lost and found system for educational institutes",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+    icons: {
+        icon: 'data:,',
+    }
 }
 
 export default function RootLayout({

@@ -173,7 +173,7 @@ export default function Dashboard() {
                       item.type === "lost" ? "bg-red-100 text-red-800" : "bg-emerald-100 text-emerald-800"
                     }`}
                   >
-                    {item.type === "lost" ? "Lost" : "Found"}
+                    {item.type === "lost" ? "Lost" : ""}
                   </div>
                   <img src={item.image || "/placeholder.svg"} alt={item.title} className="w-full h-full object-cover" />
                 </div>
